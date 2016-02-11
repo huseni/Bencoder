@@ -1,0 +1,2 @@
+# Bencoder
+Bencoding is most commonly used in torrent files. These metadata files are simply bencoded dictionaries.  While less efficient than a pure binary encoding,[citation needed] bencoding is simple and (because numbers are encoded as text in decimal notation) is unaffected by endianness, which is important for a cross-platform application like BitTorrent. It is also fairly flexible, as long as applications ignore unexpected dictionary keys, so that new ones can be added without creating incompatibilities.
